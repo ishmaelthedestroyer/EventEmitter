@@ -1,4 +1,5 @@
-app.service("EventEmitter", [
+angular.module("EventEmitter")
+.service("EventEmitter", [
 function() {
 
 /**
