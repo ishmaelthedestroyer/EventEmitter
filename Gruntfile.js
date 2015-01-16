@@ -42,7 +42,7 @@ module.exports = function(grunt) {
       EventEmitter: {
         options: {
           // stripBanners: true
-          banner: 'angular.module("EventEmitter")\n' +
+          banner: 'angular.module("EventEmitter", [])\n' +
           '.service("EventEmitter", [\n' +
           'function() {\n\n',
           footer: '\n\n}' +

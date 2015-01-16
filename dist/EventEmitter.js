@@ -1,4 +1,4 @@
-angular.module("EventEmitter")
+angular.module("EventEmitter", [])
 .service("EventEmitter", [
 function() {
 
