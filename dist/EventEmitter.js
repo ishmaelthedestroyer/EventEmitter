@@ -160,5 +160,7 @@ EventEmitter.prototype.emit = function(type) {
   }
 };
 
+return EventEmitter;
+
 }
 ]);

@@ -45,7 +45,8 @@ module.exports = function(grunt) {
           banner: 'angular.module("EventEmitter", [])\n' +
           '.service("EventEmitter", [\n' +
           'function() {\n\n',
-          footer: '\n\n}' +
+          footer: '\n\n' +
+          'return EventEmitter;\n\n}' +
           '\n]);'
         },
         src: (function() {
